@@ -10,5 +10,5 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 原来仓库地址： https://github.com/it5200/flomoPlugin/releases/tag/1.0.2
 
 由于代码中仓库中 已经固定了tag, 并且该tag为 `chrome`， 如果需要修改tag按照如下方式
-1. 解压插件后，进入 js目录， 打开 background.js 文件
-2. 搜索 #chrome 并替换为你需要的标签，如 #内容 (注意有空格)
+1. 解压插件后，进入 js目录， 打开 `background.js` 文件
+2. 搜索 `#chrome ` 并替换为你需要的标签，如 `#内容 (注意有空格)`
