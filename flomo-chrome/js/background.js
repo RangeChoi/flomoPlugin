@@ -21,7 +21,7 @@ function sendToFlomoWithLink(tab) {
         alert('请填写API后才能使用呃~(右键)')
     } else {
         chrome.tabs.getSelected(null, function(tab) {
-            content = "#chrome " + "标题：" + tab.title + "，来自：" + tab.url
+            content = "#素材 \n " + " 标题：" + tab.title + "\n 来自：" + tab.url
 
             var data = {
                 content: content
@@ -43,7 +43,7 @@ function sendToFlomoWithText(info, tab) {
 
         chrome.tabs.getSelected(null, function(tab) {
             currentUrl = tab.url
-            content = "#chrome " + info.selectionText + " 来自：" + currentUrl
+            content = "#素材 \n" + info.selectionText + "\n 来自：" + currentUrl
             var data = {
                 content: content
             }
